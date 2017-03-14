@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'king_basil_literegular';
+    src: url('king-basil-lite.woff2') format('woff2'), url('king-basil-lite.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: #f0f5f9;
+    color: rgb(20, 20, 20);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #e74c3c;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    height: 100vh;
+    /*background-image: url("http://2chu1ng8szm3zycmj1cmr5ep.wpengine.netdna-cdn.com/wp-content/uploads/2016/09/Snowdonia.jpg");*/
+    background-size: cover !important;
+    padding: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 100px;
+    color: white;
+    font-family: 'king_basil_literegular', cursive;
+}
+
+.header p {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+#divider hr {
+    border: 0;
+    height: 1px;
+    background: #000;
+    opacity: 0.2;
+}
+
+.card {
+    padding: 50px;
+    text-align: center;
+}
+
+#about {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*padding: 100px;*/
+    display: flex;
+}
+
+#about h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#about p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#about img{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+
+#church-bg {
+  background: linear-gradient(
+      rgba(82, 97, 106, 0.8),
+      rgba(82, 97, 106, 0.8)
+    ),
+    url("./images/ch.jpg");
+  text-align: center;
+  background-position: center;
+  padding: 50px;
+  font-size: 16px;
+  color: white;
+}
+
+#church-bg h1{
+  color: rgb(white);
+  font-family: 'king_basil_literegular';
+  padding-bottom: 20px;
+}
+
+#church {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+#caer-bg {
+
+  text-align: center;
+  background-position: center;
+  padding: 50px;
+  font-size: 16px;
+  color: #1e1e1e;
+}
+
+#caer h1{
+  color: #1e1e1e;
+  font-family: 'king_basil_literegular';
+  padding-bottom: 20px;
+}
+
+#caer {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: #1e1e1e;
+  padding-bottom: 10px;
+}
+
+#accom-bg{
+  background: linear-gradient(
+      rgba(30, 32, 34, 0.8),
+      rgba(30, 32, 34, 0.8)
+    ),
+    url("./images/accom.jpg");
+  text-align: center;
+  background-position: center;
+  padding: 50px;
+  font-size: 16px;
+  color: white;
+}
+
+#accom h1{
+    color: rgb(white);
+    font-family: 'king_basil_literegular';
+    padding-bottom: 20px;
+}
+
+#other{
+  text-align: center;
+  background-position: center;
+  padding: 50px;
+  font-size: 16px;
+  color: white;
+}
+
+#other h1{
+  color: #1e1e1e;
+  font-family: 'king_basil_literegular';
+  padding-bottom: 20px;
+}
+
+#other p{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: #1e1e1e;
+}
+
+#other ul{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: #1e1e1e;
+  list-style-position: inside;
+}
+
+#todo-bg{
+  background: linear-gradient(
+      rgba(30, 32, 34, 0.8),
+      rgba(30, 32, 34, 0.8)
+    ),
+    url("./images/todo.jpg");
+  text-align: center;
+  background-position: center;
+  padding: 50px;
+  font-size: 16px;
+  color: white;
+}
+
+#todo{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: white;
+  padding-bottom: 10px;
+  list-style-position: inside;
+}
+
+#todo h1{
+  color: rgb(white);
+  font-family: 'king_basil_literegular';
+  padding-bottom: 20px;
+}
+
+#todo a{
+  text-decoration: none;
+  color: #f0f5f9;
+}
+
+#todo a:hover{
+  text-decoration: none;
+  color: #c9d6de;
+}
+
+#contactForm {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#contactForm h1 {
+    color: rgb(30, 30, 30);
+    font-family: 'king_basil_literegular';
+}
+
+#footer {
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+    text-align: center;
+    font-size: 14px;
+}
