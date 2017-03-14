@@ -162,6 +162,13 @@ a:hover {
   color: white;
 }
 
+#accom{
+   font-family: 'Lora', serif;
+  font-size: 18px;
+  color: #1e1e1e;
+  padding-bottom: 10px;
+}
+
 #accom h1{
     color: rgb(white);
     font-family: 'king_basil_literegular';
